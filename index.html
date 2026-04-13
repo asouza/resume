@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Souza - Developer Education Leader</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: #1a1a1a;
+            background: #fff;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        /* Header */
+        header { margin-bottom: 2.5rem; }
+        h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.02em; }
+        .subtitle { color: #555; font-size: 1rem; margin-top: 0.25rem; }
+        .contact {
+            margin-top: 0.75rem;
+            font-size: 0.875rem;
+            color: #555;
+        }
+        .contact a {
+            color: #1a1a1a;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+        }
+        .contact a:hover { border-bottom-color: #1a1a1a; }
+        .contact span { margin: 0 0.4rem; color: #ccc; }
+
+        /* Sections */
+        section { margin-bottom: 2.25rem; }
+        h2 {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: #999;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 0.4rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Summary */
+        .summary p { color: #333; font-size: 0.9375rem; margin-bottom: 0.75rem; }
+
+        /* Jobs */
+        .job { margin-bottom: 1.75rem; }
+        .job-header { margin-bottom: 0.5rem; }
+        h3 { font-size: 1rem; font-weight: 600; }
+        .job-meta { font-size: 0.8125rem; color: #888; margin-top: 0.1rem; }
+        .job-desc { font-size: 0.9375rem; color: #333; margin-bottom: 0.5rem; }
+        .sub-role { font-size: 0.875rem; font-weight: 600; margin-top: 0.75rem; margin-bottom: 0.35rem; }
+
+        ul { list-style: none; padding: 0; }
+        li {
+            font-size: 0.9375rem;
+            color: #333;
+            padding-left: 1rem;
+            position: relative;
+            margin-bottom: 0.35rem;
+        }
+        li::before {
+            content: "\2022";
+            position: absolute;
+            left: 0;
+            color: #ccc;
+        }
+        .sub-list li { padding-left: 2rem; font-size: 0.875rem; color: #555; }
+        .sub-list li::before { left: 1rem; content: "\2013"; }
+
+        /* Education */
+        .edu { font-size: 0.9375rem; color: #333; }
+        .edu strong { font-weight: 600; }
+
+        /* Skills */
+        .skill-line { font-size: 0.9375rem; color: #333; margin-bottom: 0.35rem; }
+        .skill-line strong { font-weight: 600; }
+
+        /* Perspective */
+        .perspective p { font-size: 0.9375rem; color: #333; margin-bottom: 0.75rem; }
+
+        /* Footer */
+        footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+            font-size: 0.75rem;
+            color: #aaa;
+            font-style: italic;
+            text-align: center;
+        }
+
+        /* PDF link */
+        .pdf-link {
+            display: inline-block;
+            margin-top: 0.75rem;
+            font-size: 0.8125rem;
+            color: #555;
+            text-decoration: none;
+            border: 1px solid #ddd;
+            padding: 0.35rem 0.75rem;
+            border-radius: 4px;
+        }
+        .pdf-link:hover { border-color: #999; color: #1a1a1a; }
+
+        /* Print */
+        @media print {
+            body { font-size: 11pt; }
+            .container { max-width: 100%; padding: 0; }
+            .pdf-link { display: none; }
+        }
+
+        /* Mobile */
+        @media (max-width: 600px) {
+            .container { padding: 2rem 1rem; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Alberto Souza</h1>
+            <div class="subtitle">Developer Education Leader &middot; Software Engineer</div>
+            <div class="subtitle">Sao Paulo, Brazil &middot; Open to relocation (SF / NYC)</div>
+            <div class="contact">
+                <a href="mailto:alberto@deveficiente.com">alberto@deveficiente.com</a>
+                <span>&middot;</span>
+                <a href="https://www.linkedin.com/in/alberto-souza-953b0b7/?skipRedirect=true">LinkedIn</a>
+                <span>&middot;</span>
+                <a href="https://deveficiente.com">deveficiente.com</a>
+                <span>&middot;</span>
+                <a href="http://github.com/asouza">GitHub</a>
+                <span>&middot;</span>
+                <a href="http://youtube.com/deveficiente">YouTube</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Summary</h2>
+            <div class="summary">
+                <p>Developer education leader with 15+ years building end-to-end education programs at scale for software engineers. Built and led education strategy at Nubank (2,000+ engineers), Zup Innovation (1,000+ engineers), and Alura (Brazil's leading dev training company). Track record of designing content roadmaps, measuring learning impact beyond vanity metrics, and shipping education products across video, written, and course formats.</p>
+                <p>Author of 5 books including <em>"Be a Learning Machine"</em> (published in English) on learning science for professionals. Deep, daily user of Claude Code &mdash; built production applications, AI agents, and automation workflows entirely with it. Strong perspective on how developer education must evolve as AI capabilities advance: engineers need deeper fundamentals to be truly augmented by AI tools, not replaced by them.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Nubank &mdash; Senior Staff Engineer, Tech Education</h3>
+                    <div class="job-meta">October 2024 - Present &middot; Sao Paulo, Brazil</div>
+                </div>
+                <p class="job-desc">Education engineer embedded in Nubank's engineering organization, identifying skill gaps and building learning products to close them.</p>
+                <ul>
+                    <li>Led the redesign of engineering onboarding to support a high-volume hiring wave (400+ mid-level engineers), reducing time-to-productivity for incoming teams</li>
+                    <li>Built 40+ progressively difficult exercises on agentic thinking to help engineers adopt AI tools effectively</li>
+                    <li>Delivered 90+ exercises on Clojure (Nubank's primary language) as part of the internal education catalog</li>
+                    <li>Cataloged high-impact agent use cases across engineering and packaged them as educational content</li>
+                    <li>Used Python (Google Colab + LLMs) to build automation around learning products</li>
+                    <li>Worked with Degreed platform for pathway creation, learning plans, and performance tracking</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Dev Eficiente &mdash; Founder, Software and Education Engineer</h3>
+                    <div class="job-meta">January 2020 - Present &middot; Brazil</div>
+                </div>
+                <p class="job-desc">Education company focused on helping developers write quality code. Built the full content pipeline: strategy, creation, production, distribution, and measurement.</p>
+                <ul>
+                    <li><strong>YouTube channel</strong>: 16,000+ subscribers, 641,000+ views, 450+ videos published with weekly cadence</li>
+                    <li>Produced 73 dedicated videos on learning science and developer skill development</li>
+                    <li>Built the entire learning platform using Claude Code as primary development tool</li>
+                    <li>Created AI agents with Claude Code for marketing automation, course content generation, and API integration (exposed platform API as Claude Code skills)</li>
+                    <li>Published 5 books, including <a href="https://leanpub.com/be-a-learning-machine"><em>Be a Learning Machine</em></a> (in English) on learning science, plus 4 technical books through major Brazilian publishers</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Zup Innovation &mdash; CTO People</h3>
+                    <div class="job-meta">April 2020 - October 2024 &middot; Sao Paulo, Brazil</div>
+                </div>
+                <p class="job-desc">Owned education and performance strategy for a 1,000+ person engineering organization. Built education infrastructure from scratch, connecting training directly to business outcomes.</p>
+                <ul>
+                    <li><strong>Created Orange Talents</strong>: training-to-hiring pipeline that brought 300+ engineers into Zup. Became a model program adopted by multiple Brazilian tech companies</li>
+                </ul>
+                <ul class="sub-list">
+                    <li>Participants showed higher retention than company average</li>
+                    <li>70%+ acceptance rate by consulting clients</li>
+                </ul>
+                <ul>
+                    <li>Built a custom internal training platform grounded in learning science, designed to maximize transfer from training to real work performance</li>
+                    <li>Pioneered industry-academia partnerships: brought academic researchers to conduct research with direct executive impact</li>
+                    <li>Established systematic evaluation of technical skill gaps and targeted learning interventions</li>
+                    <li>Led the cultural shift toward "preparation culture" &mdash; making deliberate practice part of the job, not extra</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <h3>Caelum &mdash; Director of Technology, Education & HR</h3>
+                    <div class="job-meta">December 2009 - April 2020 (10 years 5 months) &middot; Sao Paulo, Brazil</div>
+                </div>
+                <p class="job-desc">Progressed from instructor to director at Brazil's most recognized developer training company. Built and scaled the education operation end-to-end.</p>
+
+                <div class="sub-role">Director of Technology and Education + HR (2015-2020)</div>
+                <ul>
+                    <li>Owned the full content roadmap: courses, open content (podcasts, lectures, handouts), and paid training</li>
+                    <li>Rebuilt HR function from payroll-only to strategic people development, grounded in organizational science</li>
+                    <li>Sat on the company board, driving education strategy both internally and externally</li>
+                </ul>
+
+                <div class="sub-role">Instructor Coordinator (2011-2015)</div>
+                <ul>
+                    <li>Directly trained 50+ instructors by decomposing pedagogy into reproducible, scalable stages</li>
+                    <li>Hired and developed teaching talent &mdash; several hires grew beyond my own capability and took over coordination</li>
+                    <li>Built Caelum's first automated class scheduler, improving client negotiation speed and instructor fairness</li>
+                </ul>
+
+                <div class="sub-role">Programmer and Instructor (2009-2011)</div>
+                <ul>
+                    <li>Taught the full Java curriculum and expanded into Mobile and Ruby</li>
+                    <li>Core contributor to VRaptor, a widely-used open source web framework in Brazil</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <p class="edu"><strong>Bachelor of Computer Science</strong> &mdash; Universidade Salvador (2002 - 2006)</p>
+        </section>
+
+        <section>
+            <h2>Skills & Tools</h2>
+            <p class="skill-line"><strong>Languages:</strong> Java (expert), Python (working proficiency &mdash; used with LLMs and automation), Clojure</p>
+            <p class="skill-line"><strong>AI Tools:</strong> Claude Code (daily power user &mdash; max plan), Claude, Gemini, Google Colab</p>
+            <p class="skill-line"><strong>Education Platforms:</strong> Degreed, custom-built platforms</p>
+            <p class="skill-line"><strong>Content Formats:</strong> Video production (450+ videos), technical writing (5 published books), course design, API documentation</p>
+            <p class="skill-line"><strong>Measurement:</strong> 3-dimensional framework &mdash; Engagement (adoption/completion), Learning (self-efficacy + knowledge tests), Business (outcome-linked metrics)</p>
+        </section>
+
+        <section>
+            <h2>Perspective on AI and Developer Education</h2>
+            <div class="perspective">
+                <p>I believe in the Tony Stark model: developers must be deeply skilled so that AI tools genuinely augment their capabilities rather than create a false sense of competence. Tony Stark is not less important because of Jarvis &mdash; he is amplified. He makes the decisions, sometimes overriding Jarvis's recommendations. That requires deep expertise.</p>
+                <p>As AI capabilities advance, developer education must focus more on fundamentals, critical thinking, and the ability to evaluate AI-generated output &mdash; not less. The developers who will thrive are those who can direct AI tools with genuine understanding, not those who delegate understanding to them.</p>
+            </div>
+        </section>
+
+        <footer>
+            This resume was built in partnership with Claude Code &mdash; from PDF extraction of my LinkedIn profile, through gap analysis against the job description, to the final version. A small example of how I work with AI daily.
+        </footer>
+    </div>
+</body>
+</html>
